@@ -1,0 +1,61 @@
+{
+    // Editor
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.fontFamily": "Source Code Pro, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
+    "editor.minimap.enabled": false,
+    "editor.parameterHints.enabled": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.suggestSelection": "first",
+
+    // Files
+    "files.autoSave": "onWindowChange",
+    "files.autoSaveDelay": 1000,
+    "files.encoding": "utf8",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.DS_Store": true,
+        "**/*.pyc": true,
+        "**/.vscode": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    // Git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.decorations.enabled": true,
+    "git.enableCommitSigning": true,
+    "git.postCommitCommand": "sync",
+
+    // Linting
+    "problems.defaultViewMode": "table",
+
+    // Python
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.typeCheckingMode": "strict",
+    "python.diagnostics.sourceMapsEnabled": true,
+    "python.languageServer": "Pylance",
+    "python.locator": "native",
+    "python.testing.pytestEnabled": true,
+    "ruff.configurationPreference": "filesystemFirst",
+    "ruff.nativeServer": true,
+
+    // UI
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.iconTheme": "ayu",
+    "workbench.statusBar.visible": false,
+    "window.commandCenter": false,
+
+    // Telemetry
+    "telemetry.telemetryLevel": "off"
+}
